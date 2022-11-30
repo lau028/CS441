@@ -233,6 +233,11 @@ class Nav extends React.Component {
                   onClick={() => this.navigate(ROUTES.INVENTORY)}>
                   Go to Inventory Page
                 </a>
+                <a
+                  className="navbar-item"
+                  onClick={() => this.navigate(ROUTES.ACCOUNTING)}>
+                  Go to Accouting Page
+                </a>
               </div>
             </div>
           </div>

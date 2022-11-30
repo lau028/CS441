@@ -83,7 +83,7 @@ class Welcome extends React.Component {
               <Link to={ROUTES.UNDOREDO}>Undo/redoing actions.</Link> <br />
               <Link to={ROUTES.CONTEXTMENU}>Custom context menu.</Link> <br />
               <Link to={ROUTES.INVENTORY}>Link to Inventory Page</Link> <br />
-              
+              <Link to={ROUTES.ACCOUNTING}>Link to Accounting Page</Link> <br />
             </div>
           
         </section>

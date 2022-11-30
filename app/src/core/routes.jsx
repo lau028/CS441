@@ -27,6 +27,9 @@ const ContextMenu = loadable(() =>
 const Inventory = loadable(() =>
   import(/* webpackChunkName: "ContextMenuChunk" */ "Pages/inventory/inventory")
 );
+const Accounting = loadable(() =>
+  import(/* webpackChunkName: "ContextMenuChunk" */ "Pages/accounting/accounting")
+);
 
 class AppRoutes extends React.Component {
   render() {    
@@ -39,6 +42,7 @@ class AppRoutes extends React.Component {
         <Route path={ROUTES.UNDOREDO} element={<UndoRedo />}></Route>
         <Route path={ROUTES.CONTEXTMENU} element={<ContextMenu />}></Route>
         <Route path={ROUTES.INVENTORY} element={<Inventory />}></Route>
+        <Route path={ROUTES.ACCOUNTING} element={<Accounting />}></Route>
       </Routes>
     );
   }

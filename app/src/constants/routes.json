@@ -6,5 +6,6 @@
   "UNDOREDO": "/undoredo",
   "CONTEXTMENU": "/contextmenu",
   "REGISTER": "/register",
-  "INVENTORY": "/inventory"
+  "INVENTORY": "/inventory",
+  "ACCOUNTING": "/accounting"
 }
