@@ -4,14 +4,14 @@ import ROUTES from "Constants/routes";
 import loadable from "@loadable/component";
 
 // Load bundles asynchronously so that the initial render happens faster
-const Welcome = loadable(() =>
-  import(/* webpackChunkName: "WelcomeChunk" */ "Pages/welcome/welcome")
+const Login = loadable(() =>
+  import(/* webpackChunkName: "WelcomeChunk" */ "Pages/login/login")
 );
 const About = loadable(() =>
   import(/* webpackChunkName: "AboutChunk" */ "Pages/about/about")
 );
-const Motd = loadable(() =>
-  import(/* webpackChunkName: "MotdChunk" */ "Pages/motd/motd")
+const Register = loadable(() =>
+  import(/* webpackChunkName: "MotdChunk" */ "Pages/register/register")
 );
 const Localization = loadable(() =>
   import(
@@ -24,21 +24,21 @@ const UndoRedo = loadable(() =>
 const ContextMenu = loadable(() =>
   import(/* webpackChunkName: "ContextMenuChunk" */ "Pages/contextmenu/contextmenu")
 );
-const Image = loadable(() =>
-  import(/* webpackChunkName: "ContextMenuChunk" */ "Pages/image/image")
+const Inventory = loadable(() =>
+  import(/* webpackChunkName: "ContextMenuChunk" */ "Pages/inventory/inventory")
 );
 
 class AppRoutes extends React.Component {
   render() {    
     return (
       <Routes>
-        <Route path={ROUTES.WELCOME} element={<Welcome />}></Route>
+        <Route path={ROUTES.LOGIN} element={<Login />}></Route>
         <Route path={ROUTES.ABOUT} element={<About />}></Route>
-        <Route path={ROUTES.MOTD} element={<Motd />}></Route>
+        <Route path={ROUTES.REGISTER} element={<Register />}></Route>
         <Route path={ROUTES.LOCALIZATION} element={<Localization />}></Route>
         <Route path={ROUTES.UNDOREDO} element={<UndoRedo />}></Route>
         <Route path={ROUTES.CONTEXTMENU} element={<ContextMenu />}></Route>
-        <Route path={ROUTES.IMAGE} element={<Image />}></Route>
+        <Route path={ROUTES.INVENTORY} element={<Inventory />}></Route>
       </Routes>
     );
   }

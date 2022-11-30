@@ -1,0 +1,86 @@
+/*********************************************/
+/***************** HTML TAGS *****************/ 
+/*********************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body, html {
+    position: relative;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px; 
+}
+
+menu {
+    width: 100%;
+    background: black;
+    color:white;
+    padding: 0;
+    margin: 0;
+    flex-grow: 0;
+}
+
+
+/*******************************************/
+/***************** CLASSES *****************/ 
+/*******************************************/
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.centerX {
+  justify-content: center;
+}
+
+.centerY {
+  align-items: center;
+}
+
+.spaceBtwnLR {
+  justify-content: space-between;
+}
+
+.spaceBtwnUD {
+  align-content: space-between;
+}
+
+.menuBar {
+    width: 75%;
+    height: 6px;
+    background: white;
+    margin: 3px;
+}
+
+/****************************************/
+/***************** ID's *****************/ 
+/****************************************/
+#menuIcon {
+    min-width: 30px;
+    width: 5%;
+    height: 50px;
+    margin: 10px;
+}
+#menuIconBar1 {
+}
+#menuIconBar2 {
+}
+#menuIconBar3 {
+}
+#menuTitle {
+}

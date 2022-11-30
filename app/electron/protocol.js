@@ -20,6 +20,7 @@ const scheme = "app";
 
 const mimeTypes = {
   ".js": "text/javascript",
+  ".ts": "text/typescript",
   ".mjs": "text/javascript",
   ".html": "text/html",
   ".htm": "text/html",

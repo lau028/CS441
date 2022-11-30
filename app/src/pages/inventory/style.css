@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #002147;
+    margin: 0;
+  }
+  
+  .action-bar {
+    background-color: #53aaaa;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav-list-left {
+    padding: 15px;
+    gap: 50px;
+  }

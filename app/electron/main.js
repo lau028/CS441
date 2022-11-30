@@ -1,3 +1,4 @@
+
 const {
   app,
   protocol,
@@ -71,7 +72,7 @@ async function createWindow() {
       disableBlinkFeatures: "Auxclick"
     }
   });
-
+  
   // Sets up main.js bindings for our i18next backend
   i18nextBackend.mainBindings(ipcMain, win, fs);
 

@@ -194,7 +194,7 @@ class Nav extends React.Component {
           <div className="navbar-start">
             <a
               className="navbar-item"
-              onClick={() => this.navigate(ROUTES.WELCOME)}>
+              onClick={() => this.navigate(ROUTES.LOGIN)}>
               Home
             </a>
 
@@ -210,8 +210,8 @@ class Nav extends React.Component {
               <div className="navbar-dropdown">
                 <a
                   className="navbar-item"
-                  onClick={() => this.navigate(ROUTES.MOTD)}>
-                  Using the Electron store
+                  onClick={() => this.navigate(ROUTES.REGISTER)}>
+                  Go to register Page
                 </a>
                 <a
                   className="navbar-item"
@@ -230,8 +230,8 @@ class Nav extends React.Component {
                 </a>
                 <a
                   className="navbar-item"
-                  onClick={() => this.navigate(ROUTES.IMAGE)}>
-                  Sample image loaded
+                  onClick={() => this.navigate(ROUTES.INVENTORY)}>
+                  Go to Inventory Page
                 </a>
               </div>
             </div>
